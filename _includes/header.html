@@ -12,7 +12,20 @@
   </button>
 
   <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-    <a class="navbar-brand" href="/">{{site.title}}</a>
+    <a class="navbar-brand" href="#">
+      <img
+        src="{{site.url}}{{site.baseurl}}/assets/img/{{site.hero_large_logo}}"
+        alt="..."
+        height="36"
+      />
+    </a>
+    <a class="navbar-brand" href="#">
+      <img
+        src="{{site.url}}{{site.baseurl}}/assets/img/{{site.hero_text_logo}}"
+        alt="..."
+        height="36"
+      />
+    </a>
     <ul class="navbar-nav">
       {% for i in site.urls %}
       <li class="nav-item">

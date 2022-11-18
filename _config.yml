@@ -1,5 +1,5 @@
-title: Jeremy Cruz
-subtitle: Blue Sound Studio
+title: Sunidu Productions
+subtitle: Audio Services From Jeremy Cruz
 description: >- # this means to ignore newlines until "baseurl:"
   Music Production, Mixing, and Sound Design To Your Vision
 
@@ -35,6 +35,8 @@ author_location: USA
 author_website_url: "https://jcruz8482.github.io/"
 typewrite-text: Music Production, Mixing, and Sound Design To Your Vision
 hero_cover_img: professor2_blur.jpg
+hero_text_logo: TextLogo.png
+hero_large_logo: sunidu_large_icon.png
 
 # Experiences
 author_work_experiences:
