@@ -110,10 +110,6 @@ ul {
     margin-left: 30px !important;
 }
 
-p.with-four {
-    text-shadow: 1.09em 0 black, 0 0.09em black, -1.09em 0 black, 0 -1.09em black;
-}
-
 /* Progress bar */
 .progressline .bar {
     background: #f69801;
@@ -604,12 +600,13 @@ header {
 
 .jumbotron-heading {
     font-size: 35px;
+    font-weight: 800;
+    text-align: center;
 }
 
 .lead {
     font-size: 1.5rem !important;
     font-weight: 600;
-    text-shadow: .5px .5px rgb(0, 0, 0);
 }
 
 .fa {

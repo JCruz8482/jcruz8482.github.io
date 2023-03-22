@@ -1,23 +1,29 @@
 <style>
   /* change cover_img in config.yml */
-  .jumbotron {
-    background-color: var(--main-background-color) !important;
-    background-image: url("/assets/img/{{site.hero_cover_img}}");
-    text-align: center;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: top;
-    min-height: 1100px;
-  }
-  .jumbotron-btns {
-    display: block;
-    margin-top: 50px;
-  }
+    .jumbotron {
+        background-color: var(--main-background-color) !important;
+        background-image: url("/assets/img/{{site.hero_cover_img}}");
+        text-align: center;
+        background-attachment: scroll;
+        background-size: cover;
+        background-position: top;
+        min-height: 1100px;
+    }
+    .jumbotron-btns {
+        display: block;
+        margin-top: 50px;
+    }
 
-  .jumbotron-heading,
-  .lead {
-    color: #fff;
-  }
+    .jumbotron-heading,
+    .lead {
+        text-align: center;
+        color: #fff;
+        background-color: rgba(30, 43, 200, .2);
+        text-shadow: 1px 1px rgb(0, 0, 0),
+                     2px 2px rgb(0, 0, 0);
+    }
+    .span {
+    }
 </style>
 
 <!-- home hero section -->
@@ -28,7 +34,7 @@
   />
   <p class="jumbotron-heading">Hi, I am {{site.author}} </p>
 
-  <p.with-four class="lead" id="typewriteText"></p.with-four>
+  <p.span class="lead" id="typewriteText"></p.span>
 
   <!-- uncomment/modify buttons as you want-->
   <div class="jumbotron-btns">
