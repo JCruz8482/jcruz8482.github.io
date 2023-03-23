@@ -3,14 +3,14 @@ layout: default
 ---
 
 <div class="col-lg-12">
-  <div class="row justify-content-center">
-    <div class="col-lg-8">
-      <ul>
-        <div class="row">
-          {% for song in site.mixes %} {% include soundcloud_post.html %}
-          {%endfor %}
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <ul>
+                <div class="row">
+                    {% for song in site.mixes %} {% include soundcloud_post.html %}
+                    {%endfor %}
+                </div>
+            </ul>
         </div>
-      </ul>
     </div>
-  </div>
 </div>

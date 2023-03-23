@@ -1,7 +1,7 @@
 ---
-name: John Doe
-username: johndoe
-bio: "Hi I a John, a Web Developer and Designer."
+name: Jeremy Cruz
+username: jeremy.sunidu
+bio: ""
 site: http://johndoe.com
 avatar: johndoe.png
 email: mail@johndoe.com
