@@ -143,6 +143,44 @@ body {
     overflow-y: scroll;
 }
 
+.sunidu-font {
+    font-size: 140px;
+    font-family: 'Yanone Kaffeesatz', arial, serif;
+    font-weight: 600;
+    font-color: #000000;
+    letter-spacing: 6px;
+}
+
+@media screen and (max-width: 2000px) {
+    .sunidu-font {
+        font-size: 100px;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .sunidu-font {
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .sunidu-font {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .sunidu-font {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 200px) {
+    .sunidu-font {
+        font-size: 16px;
+    }
+}
+
 .container {
     position: relative;
     overflow: hidden;
@@ -1017,7 +1055,7 @@ footer {
 }
 
 /* Smartphones */
-@media (min-width: 200px) and (max-width: 319px) {
+@media (min-width: 200px) and (max-width: 700px) {
     header {
         height: auto;
         text-align: center;
