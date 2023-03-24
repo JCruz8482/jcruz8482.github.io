@@ -1,15 +1,15 @@
-<div class="card blog-post">
-  <div class="card-body center">
-    <h4 class="card-title">{{ film.title }}</h4>
+<div class="card-less-padding container">
+  <div class="card-body center responsive-50">
+    <h3 class="card-title">{{ film.title }}</h3>
     <p class="card-text">{{ film.content }}</p>
-    <iframe
-      width="450"
-      height="315"
-      src="{{ film.link }}"
-      title="YouTube video player"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen
-    ></iframe>
+    <p align="center">
+        <iframe width="450"
+                height="315"
+                src="{{ film.link }}"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+    </p>
   </div>
 </div>

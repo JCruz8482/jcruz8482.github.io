@@ -1,8 +1,7 @@
 ---
 title: SimpleEQ
-discription: A simple equalizer built with JUCE and foleys_gui_magic
+description: A simple equalizer built with JUCE and foleys_gui_magic
 image: /assets/img/plugins/SimpleEQscreenshot.png
-github-repo: 
 ---
 ## Features
 
