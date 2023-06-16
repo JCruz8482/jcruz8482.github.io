@@ -1,29 +1,28 @@
 <style>
   /* change cover_img in config.yml */
-    .jumbotron {
-        background-color: var(--main-background-color) !important;
-        background-image: url("/assets/img/{{site.hero_cover_img}}");
-        text-align: center;
-        background-attachment: scroll;
-        background-size: cover;
-        background-position: top;
-        min-height: 1100px;
-    }
-    .jumbotron-btns {
-        display: block;
-        margin-top: 50px;
-    }
+  .jumbotron {
+    background-color: var(--main-background-color) !important;
+    background-image: url("/assets/img/{{site.hero_cover_img}}");
+    text-align: center;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: top;
+    min-height: 1100px;
+  }
+  .jumbotron-btns {
+    display: block;
+    margin-top: 50px;
+  }
 
-    .jumbotron-heading,
-    .lead {
-        text-align: center;
-        color: #fff;
-        background-color: rgba(30, 43, 200, .2);
-        text-shadow: 1px 1px rgb(0, 0, 0),
-                     2px 2px rgb(0, 0, 0);
-    }
-    .span {
-    }
+  .jumbotron-heading,
+  .lead {
+    text-align: center;
+    color: #fff;
+    background-color: rgba(30, 43, 200, 0.2);
+    text-shadow: 1px 1px rgb(0, 0, 0), 2px 2px rgb(0, 0, 0);
+  }
+  .span {
+  }
 </style>
 
 <!-- home hero section -->
@@ -32,7 +31,7 @@
     class="author-profile-img"
     src="{{site.url}}{{site.baseurl}}/assets/img/{{site.author_logo}}"
   />
-  <p class="jumbotron-heading">Hi, I am {{site.author}} </p>
+  <p class="jumbotron-heading">Hi, I am {{site.author}}</p>
 
   <p.span class="lead" id="typewriteText"></p.span>
 
@@ -42,8 +41,12 @@
       <button class="btn btn-md btn-default">
         <strong>Free Plugins</strong>
       </button>
-    </a> 
-
+    </a>
+    <a href="https://songwhip.com/sunidu/sake-tale">
+      <button class="btn btn-md btn-default">
+        <strong>Stream My Latest Release</strong>
+      </button>
+    </a>
     <a href="{{site.url}}{{site.baseurl}}/shop">
       <button class="btn btn-md btn-default">
         <strong>Free Sample Packs</strong>
